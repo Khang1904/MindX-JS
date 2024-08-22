@@ -1,0 +1,17 @@
+header {
+    background-color: rgb(37, 144, 237);
+}
+
+body {
+    background-color: rgb(15, 17, 26);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: white;
+    color:rgb(15, 17, 26)
+}
+
+pre {
+    font-family: monospace;
+}
