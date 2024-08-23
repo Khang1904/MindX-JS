@@ -1,0 +1,25 @@
+h2 {
+  border-style: groove;
+  border-color: whitesmoke;
+  padding: 5px;
+}
+
+img {
+  border-style: outset;
+  border-color: rgb(0, 40, 40);
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: rgb(126, 171, 255);
+  color: black;
+}
+
+footer {
+  background-color: azure;
+  color: black;
+}
