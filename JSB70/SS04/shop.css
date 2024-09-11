@@ -1,0 +1,24 @@
+nav {
+  background-color: lightskyblue;
+}
+
+main > div {
+  width: 100%;
+  height: 135px;
+  background-color: lightgray;
+  border-radius: 10px;
+  position: relative;
+}
+
+div > img {
+  position: relative;
+  left: 5px;
+  top: 5px;
+  height: 125px;
+}
+
+div > button {
+  position: absolute;
+  left: 650px;
+  top: 110px;
+}

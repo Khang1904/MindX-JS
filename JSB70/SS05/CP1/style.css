@@ -1,0 +1,29 @@
+body {
+    color: rgb(33, 173, 33);
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(98, 255, 98);
+}
+
+.bordered {
+    padding: 5px;
+    border: solid
+}
+
+footer {
+    padding: 5px;
+    border: double
+}
+
+main {
+    position: relative;
+}
+
+button {
+    position: fixed;
+    right: 5px;
+    bottom: 5px
+}
