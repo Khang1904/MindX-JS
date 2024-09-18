@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Dog Social</a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page"
+                  >Home <span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Explore</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Profile</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">Settings</a>
+                  <a class="dropdown-item" href="#">Log out</a>
+                </div>
+              </li>
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+              <input
+                class="form-control me-sm-2"
+                type="text"
+                placeholder="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br />
+      <h1 style="text-align: center">Dog Social</h1>
+      <p style="text-align: center">the Dog social media</p>
+    </header>
+    <main>
+      <div
+        id="carouselId"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="scale: 0.9"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="First slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="1"
+            aria-label="Second slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="2"
+            aria-label="Third slide"
+          ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="./caro1.jpg" class="w-100 d-block" alt="First slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Find dogs in your neighborhood</h3>
+              <p>like this one guy!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./caro2.jpg" class="w-100 d-block" alt="Second slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Making a family?</h3>
+              <p>look no more than Dog Social</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./caro3.jpg" class="w-100 d-block" alt="Third slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Want someone to play with?</h3>
+              <p>Our playful dogs are waiting for you!</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h1 style="text-align: center">Testimonials</h1>
+
+      <div style="display: flexbox; margin: auto; width: 50%">
+        <div class="card" style="width: 18rem; display: inline-flex">
+          <img src="./ava1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Dog</h5>
+            <p class="card-text">Woof woof</p>
+            <a href="#" class="btn btn-primary">To profile</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem; display: inline-flex">
+          <img src="./ava2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Dog</h5>
+            <p class="card-text">Woof woof</p>
+            <a href="#" class="btn btn-primary">To profile</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem; display: inline-flex">
+          <img src="./ava3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Dog</h5>
+            <p class="card-text">Woof woof</p>
+            <a href="#" class="btn btn-primary">To profile</a>
+          </div>
+        </div>
+      </div>
+
+      <h1 style="text-align: center">Press</h1>
+
+      <div class="card">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>Woof woof!</p>
+            <footer class="blockquote-footer">
+              Dog News Network
+              <!-- <cite title="Source title">Source title</cite> -->
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+      <h1 style="text-align: center;">Pricing</h1>
+    
+      <div
+        class="table-responsive"
+      >
+        <table
+            class="table table-primary"
+        >
+            <thead>
+                <tr>
+                    <th scope="col">Plan:</th>
+                    <th scope="col">Standard</th>
+                    <th scope="col">Pro</th>
+                    <th scope="col">Pro ++</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="">
+                    <td scope="row">Custom profile:</td>
+                    <td>Only black&white color</td>
+                    <td>Only chosen color</td>
+                    <td>Custom img</td>
+                </tr>
+                <tr class="">
+                    <td scope="row">Price</td>
+                    <td>Free</td>
+                    <td>$1.99</td>
+                    <td>$4.99</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+
+      <h2 style="text-align: center;">Join us now!</h2>
+      <p style="text-align: center;">There are many dogs out there waiting for you.</p>
+    
+    </main>
+    <footer style="background-color: black; color: azure; padding:30px">
+        <h3>Dog Social</h3>
+        <a href="#">About</a><br>
+        <a href="#">Contact us</a>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
