@@ -1,0 +1,13 @@
+body {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 600px;
+    padding-right: 600px;
+    background-color: white;
+}
+
+body div {
+    background-color: black;
+    color: black;
+    text-align: center;
+}
