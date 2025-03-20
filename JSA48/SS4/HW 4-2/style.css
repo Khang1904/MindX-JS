@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+li:nth-child(odd) {
+    background: #e9e9e9;
+}
+
+li button {
+    background: #dc3545;
+}
+
+li button:hover {
+    background: #c82333;
+}
+
+li button.edit {
+    background: #ffc107;
+    margin-right: 10px;
+}
+
+li button.edit:hover {
+    background: #e0a800;
+}
+
+li span.task-id {
+    font-weight: bold;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+li span.task-status {
+    margin-left: 10px;
+    font-style: italic;
+    color: #6c757d;
+    flex-shrink: 0;
+}
+
+li span.task-status.done {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+li.done {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+li span.task-date {
+    margin-left: 10px;
+    font-style: italic;
+    color: #6c757d;
+    flex-shrink: 0;
+}
+
+li div.task-text {
+    flex: 1;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    width: 100%;
+}
+
+li .task-meta {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li .task-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+li .task-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}

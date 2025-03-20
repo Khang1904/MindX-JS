@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
