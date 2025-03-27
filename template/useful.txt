@@ -1,0 +1,8 @@
+bootstrap
+https://getbootstrap.com/
+
+fontawesome
+https://fontawesome.com/
+
+firebase
+https://firebase.google.com/
