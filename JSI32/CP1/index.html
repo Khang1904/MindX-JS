@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1>Login</h1>
+        <p id="status"></p>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <button id="login">Login</button>
+        <button id="google-login">Sign in with Google</button>
+    </div>
+
+    <!-- firebase -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-app-compat.min.js"
+        integrity="sha512-+sREIsioPWovonmPhKdOdLYSVtjTVf1egJBBXyB/F03Rr2F/ZfNMQUH2xaSGpYIQhIcCl2o48QVMbzr4VcEHfA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-firestore-compat.min.js"
+        integrity="sha512-4ks3H+mrA5UqojL1qbiNoGTIFvoptBKiAP7BrSpH+GdBgbfFY3+ZAUvMFLHT0WmXxx3L+9dU3eF5yN4Iwh4oJA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-storage-compat.min.js"
+        integrity="sha512-UWiTgu3Muffq292khq+2MIrG+G87b+ll2Y2TaCRv6jSZ8fdtCBPst1dTQIPfJV1/xWWOlgCdgLltdS0VJgUb9w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-auth-compat.min.js"
+        integrity="sha512-CGUF+dWcHYjNE9r1tL1/sQMrkjl/dyY8+bKdmqnplDUJQ27LvTXneYIBK++44GDjetxGojYGxbzbHNBtEBzUuw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- features -->
+    <script src="./firebaseConfig.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
