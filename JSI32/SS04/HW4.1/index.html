@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="user-layout">
+        <p id="heading">Current user</p>
+        <div>
+            <p class="label">Email:<span id="current-email"></span></p>
+        </div>
+        <hr>
+        <div id="links-panel">
+            <a href="./login.html">Login</a>
+            <a href="./register.html">Register</a>
+            <a id="logout" style="color: #f03">Logout</a>
+            <a id="delacc" style="color: #f03">Delete account</a>
+        </div>
+    </div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-app-compat.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-auth-compat.min.js"></script>
+    <script src="./js/firebaseConfig.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
