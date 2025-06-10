@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main-container">
+      <h1>The Leaderboards</h1>
+      <ol id="leaderboard"></ol>
+      <hr>
+      <h2>Submit Your Score</h2>
+      <input type="text" id="name" placeholder="Enter your name">
+      <input type="number" id="score" placeholder="Enter your score">
+      <button id="submit">Submit</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-app-compat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-firestore-compat.min.js"></script>
+    <script src="./js/firebaseConfig.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

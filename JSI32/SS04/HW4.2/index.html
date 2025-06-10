@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="user-layout">
+        <p id="heading">Welcome back!</p>
+        <div>
+            <p class="label">User:<span id="current-user"></span></p>
+        </div>
+        <hr>
+        <div id="score-panel" class="panel">
+            <p id="warning">Please log in to use this feature</p>
+            <input type="text" id="test" class="scoring" placeholder="Enter your test name" disabled>
+            <input type="text" id="score" class="scoring" placeholder="Enter your score" disabled>
+            <div class="input-suffix">
+                <input type="number" id="time" class="scoring" placeholder="Enter your time" min="0" step="1" disabled>
+                <span class="suffix">s</span>
+            </div>
+            <button id="submit" class="scoring" disabled>Save</button>
+        </div>
+        <div id="links-panel" class="panel">
+            <a href="./login.html" class="link">Login</a>
+            <a href="./register.html" class="link">Register</a>
+            <a id="logout" style="color: #f03">Logout</a>
+            <a id="delacc" style="color: #f03">Delete account</a>
+        </div>
+    </div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-app-compat.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-auth-compat.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/11.1.0/firebase-firestore-compat.min.js"></script>
+    <script src="./js/firebaseConfig.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/scoring.js"></script>
+</body>
+
+</html>

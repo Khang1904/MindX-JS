@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #3730a3;
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+hr {
+  width: 60vw;
+  max-width: 600px;
+  border: none;
+  border-top: 2px solid #a5b4fc;
+  margin-bottom: 2rem;
+}
+
+#stats {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background: #eee;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 1rem 0px 1.2rem 0px;
+  box-shadow: 0 -2px 12px rgba(99, 102, 241, 0.1);
+  z-index: 100;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  user-select: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#time {
+  font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #000;
+  align-self: center;
+}
+
+#submit {
+  width: 100%;
+  max-width: 200px;
+
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #818cf8 0%, #6366f1 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.1);
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  align-self: center;
+}
+
+#submit:hover,
+#submit:focus {
+  background: linear-gradient(90deg, #6366f1 0%, #818cf8 100%);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.18);
+  outline: none;
+}
+
+#quiz {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 120px; /* Space for the fixed navbar */
+}
+
+.question ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.question li {
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.question li:hover {
+  background: #eef2ff;
+}
+
+.question input[type="radio"] {
+  margin-right: 0.7em;
+  accent-color: #6366f1;
+  transform: scale(1.2);
+}
